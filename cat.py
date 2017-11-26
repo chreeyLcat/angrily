@@ -38,6 +38,4 @@ user = {"name":username,"age":"18岁","high":"168cm","job":"测试工程师","se
 for key in user:
     print(key,":\t",user[key])
  
-        
-
 
