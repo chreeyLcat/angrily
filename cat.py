@@ -32,7 +32,7 @@ for i in range(4):
         else:
             print("账户不存在！")
     else:
-        print("错误操作超过三次，请联系管理员")
+        print("错误操作超过三次，请联系管理员!!!")
         exit()
 user = {"name":username,"age":"18岁","high":"168cm","job":"测试工程师","sex":"女"}
 for key in user:
