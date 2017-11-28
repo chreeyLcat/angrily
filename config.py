@@ -4,10 +4,10 @@
 
 '''
 DeploymentConfig = {
-    "filehome": "F:/testtest/data/",
+    "filehome": "F:/my/angrily/data/",
     "username": "tom"
 }
 Testconfig = {
-    "filehome": "F:/testtest/data/",
-    "username": "cici!"
+    "filehome": "F:/my/angrily/data/",
+    "username": "cici"
 }
