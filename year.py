@@ -28,10 +28,10 @@ if int(year) % 4 == 0 | int(year) % 400 == 0:
     timedate[1] = timedate[1] + 1
     for i in range(int(month) - 1):
         days += timedate[i]
-    days =  days + int(day)
-    print("你好，%s-%s-%s是%s年的第%s天!" %(year, month, day, year, days))
+    days = days + int(day)
+    print("你好，%s-%s-%s是%s年的第%s天!" % (year, month, day, year, days))
 else:
     for i in range(int(month) - 1):
         days += timedate[i]
-    days =  days + int(day)
-    print("你好，%s-%s-%s是%s年的第%s天!" %(year, month, day, year, days))   
+    days = days + int(day)
+    print("你好，%s-%s-%s是%s年的第%s天!" % (year, month, day, year, days))   
