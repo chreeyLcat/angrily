@@ -33,3 +33,10 @@ def user():
 
 
 user()
+
+
+def sumnun(a, b):
+    print(a + b)
+
+
+sumnun(9, 3)
