@@ -2,6 +2,8 @@
 '''
 作用：我的第一个函数
 '''
+
+
 def user():
     '''
     第一个函数，没什么用处
@@ -27,8 +29,7 @@ def user():
     }
     for key in list:
         # print(people[key])
-        print("姓名：%s，年龄：%s，身高：%s，性别：%s" %
-        (key, people[key]["age"], people[key]["high"], people[key]["sex"]))
+        print("姓名：%s，年龄：%s，身高：%s，性别：%s" % (key, people[key]["age"], people[key]["high"], people[key]["sex"]))
 
 
 user()
