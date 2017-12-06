@@ -46,6 +46,7 @@ def mytestcase(testdata):
         print("测试不通过")
         print(r)
 
-    # 输入测试数据
+
+# 输入测试数据
 testdata = "miaomi"
 mytestcase(testdata)
